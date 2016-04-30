@@ -63,3 +63,18 @@ function findLaregest(number1, number2) {
     console.log("number2 is largest number", number2);
   }
 }
+
+
+------------------- find negative or positive number -----------
+
+function negativeOrpositive(number) {
+  if (number==0) {
+    console.log("zero is neither positive number nor negative number");
+  }
+  else if (number>0) {
+    console.log("number is positive number", number);
+  }
+  else {
+    console.log("number is negative number", number);
+  }
+}
