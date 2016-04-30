@@ -11,3 +11,15 @@ function averageOfarray(array) {
   }
   console.log("result", result);
 }
+
+---------------------- multiplication ------------
+
+function multiplicationofarray(array) {
+  var result, lengthofarray;
+  result = 1
+  lengthofarray = array.length;
+  for (var i = 0; i < lengthofarray; i++) {
+    result = result * array[i];
+  }
+  console.log("result", result);
+}
