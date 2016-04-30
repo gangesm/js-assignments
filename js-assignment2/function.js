@@ -59,3 +59,4 @@ function findDigit(number) {
   }
   return count;
 }
+
