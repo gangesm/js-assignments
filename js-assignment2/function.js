@@ -44,3 +44,18 @@ function fatorial(number) {
     console.log("result", result);
   }
 }
+
+--------------- find digit -------------
+
+function findDigit(number) {
+  var result, count=0;
+  result = number;
+  if (number==0) {
+    console.log("Please enter non zero number");
+  }
+  while (result !=0){
+    result = parseInt(result/10);
+    count++
+  }
+  return count;
+}
