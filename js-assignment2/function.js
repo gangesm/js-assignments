@@ -33,3 +33,14 @@ function multiplication(number) {
       console.log("result", result);
   }
 }
+
+-------------- find number of fatorial -----------------
+
+function fatorial(number) {
+  var result;
+  result=1;
+  for (var i = 1; i <= number; i++) {
+    result = result*i;
+    console.log("result", result);
+  }
+}
