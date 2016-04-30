@@ -24,3 +24,12 @@ function calculator(number1, number2, action) {
   }
   console.log("result", result);
 }
+
+------------------ table multiplication ----------------
+
+function multiplication(number) {
+  for (var i = 1; i <= 10; i++) {
+    result = number*i;
+      console.log("result", result);
+  }
+}
