@@ -51,3 +51,15 @@ function percentage(array) {
   }
   console.log("result", result);
 }
+
+
+-------------------- find largest number ------
+
+function findLaregest(number1, number2) {
+  if (number1 > number2) {
+    console.log("number1 is largest number, number1");
+  }
+  else {
+    console.log("number2 is largest number", number2);
+  }
+}
